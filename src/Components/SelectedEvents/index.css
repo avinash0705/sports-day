@@ -1,0 +1,40 @@
+
+
+.heading{
+    font-size: 22px;
+    font-weight: 500;
+}
+.selected-events-listing{
+    padding: 20px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    .event-tile{
+        /* width: 200px; */
+        /* height: 200px; */
+        background-color: white;
+        padding: 20px 16px;
+        border-radius: 12px;
+        box-shadow: 0 1px 4px 0 rgba(0, 106, 194, .2);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        gap: 10px;
+
+
+        .time{
+            font-size: 12px;
+        }
+        #addBtn{
+            width: 100%;
+            border: 1px solid gainsboro;
+            height: 40px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    }
+}
+

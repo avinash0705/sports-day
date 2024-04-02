@@ -1,0 +1,13 @@
+#cancelBtn{
+
+    float: right;
+}
+
+.disabled.card{
+    background-color: grey;
+    border: none;
+    opacity: .7;
+    button{
+        background-color: #BED7DC;
+    }
+}

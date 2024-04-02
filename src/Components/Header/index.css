@@ -1,0 +1,9 @@
+.bg-myBg{
+    background-color: #B3C8CF !important;
+}
+
+.nav-link{
+    .cart-logo{
+        position: relative;
+    }
+}
