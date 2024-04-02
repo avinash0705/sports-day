@@ -38,7 +38,7 @@ export class GlobalController {
             let isOverlapping = false;
             const disableSelection = currentSelectedEventList.length === MAX_SELECTION;
             if(disableSelection) {
-                toast("Max 3 events is allowed!!!");
+                toast("Max 3 events allowed !!!");
                 return;
             }
             currentSelectedEventList.forEach(ev => {
@@ -50,8 +50,7 @@ export class GlobalController {
             if(isOverlapping === false) {
                 this.dispatch({type: actions.SELECT_EVENT, data: parseInt(eventId)})
             } else {
-                toast("You are already Occupied at this time!!");
-                console.log("You are already Occupied at this time");
+                toast("You are already occupied at this time!!!");
             }
             
         } catch (error) {
